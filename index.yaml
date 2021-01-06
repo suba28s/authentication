@@ -1,14 +1,30 @@
 apiVersion: v1
 entries:
-  auth:
+  commonsvc:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-05T07:44:40.847106718Z"
+    created: "2021-01-06T13:42:48.311959239Z"
+    dependencies:
+    - name: privilege
+      repository: https://raw.githubusercontent.com/suba28s/privilege/master
+      version: 0.1.0
+    - name: application
+      repository: https://raw.githubusercontent.com/suba28s/application/master
+      version: 0.1.0
+    - name: email
+      repository: https://raw.githubusercontent.com/suba28s/email/master
+      version: 0.1.0
+    - name: pdf
+      repository: https://raw.githubusercontent.com/suba28s/pdf/master
+      version: 0.1.0
+    - name: plutext
+      repository: https://raw.githubusercontent.com/suba28s/plutext/master
+      version: 0.1.0
     description: A Helm chart for Kubernetes
-    digest: a31f182f92808b1ba436b0437c7d4d2f21d9c2ed432296306677c36e0dc5ce1d
-    name: auth
+    digest: 8b8a2a990ad5992954f99deee3313e8af6d3f8bac68f225be111bab67d8e1aa4
+    name: commonsvc
     type: application
     urls:
-    - auth-0.1.0.tgz
+    - commonsvc-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-05T07:44:40.845983409Z"
+generated: "2021-01-06T13:42:48.30750765Z"
