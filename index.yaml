@@ -3,7 +3,7 @@ entries:
   commonsvc:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-14T12:48:26.071599185Z"
+    created: "2021-01-14T12:54:31.381732144Z"
     dependencies:
     - name: privilege
       repository: https://raw.githubusercontent.com/suba28s/privilege/master
@@ -21,10 +21,10 @@ entries:
       repository: https://raw.githubusercontent.com/suba28s/plutext/master
       version: 0.1.0
     description: A Helm chart for Kubernetes
-    digest: f8d9667f2622951c3a4a22191db649df5a8f5e04fc85486f2e5e1dbb7dd8a7e9
+    digest: e435e4de1f6cd382014a0943f009f8d0d51dc80c8f1cb4cb4937b5044345200d
     name: commonsvc
     type: application
     urls:
     - commonsvc-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-14T12:48:26.066878629Z"
+generated: "2021-01-14T12:54:31.377113781Z"
